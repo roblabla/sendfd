@@ -7,7 +7,7 @@ license = "MIT"
 description = "Send file descriptors over Unix Domain Sockets"
 repository = "https://github.com/roblabla/sendfd"
 documentation = "https://docs.rs/sendfd"
-keywords = ["posix", "unix", "socket", "domain", "fd", "file", "descriptor", "ipc", "send"]
+keywords = ["posix", "unix", "socket", "fd", "ipc"]
 
 [build-dependencies]
 gcc = "0.3"
