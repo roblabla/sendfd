@@ -1,6 +1,6 @@
 [package]
 name = "sendfd"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["roblabla <robinlambertz+dev@gmail.com>"]
 build = "build.rs"
 license = "MIT"
@@ -10,4 +10,4 @@ documentation = "https://docs.rs/sendfd"
 keywords = ["posix", "unix", "socket", "fd", "ipc"]
 
 [build-dependencies]
-gcc = "0.3"
+cc = "1.0"
