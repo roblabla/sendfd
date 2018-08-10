@@ -1,5 +1,5 @@
-extern crate gcc;
+extern crate cc;
 
 fn main() {
-    gcc::compile_library("libsendfd.a", &["src/sendfd.c"]);
+    cc::Build::new().file("src/sendfd.c").compile("libsendfd.a");
 }
